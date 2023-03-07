@@ -1,23 +1,26 @@
 .footer {
-  position: static;
+  position: sticky;
   margin-top: 2%;
   border-top: 2px solid #ffbb00;
   width: 100vw;
   background-color: #141e30;
   color: #fff;
   bottom: 0;
-  padding-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 20px;
   height: 60px;
   z-index: 30;
 }
 
 .footer-container {
-  max-width: 100vw;
+  max-width: 90vw;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
 }
+
 
 .footer-container p {
   margin: 0;
@@ -34,4 +37,11 @@
 
 .footer-container a:hover {
   text-decoration: underline;
+}
+
+
+@media (max-width:600px) {
+  .footer{
+    display: none;
+  }
 }

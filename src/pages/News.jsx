@@ -35,7 +35,7 @@ const newsData = [
 
 const News = () => {
   return (
-    <div className="news-container">
+    <>
       <BgNews />
       <div className="news-content">
         <h2 className="news-heading">Anunțuri</h2>
@@ -46,7 +46,7 @@ const News = () => {
         </div>
       </div>
       <Footer />
-    </div>
+     </> 
   );
 };
 
