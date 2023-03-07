@@ -1,19 +1,14 @@
-.news-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #2b3b57;
-  overflow: hidden;
-}
-
 .news-content {
+  vertical-align: middle;
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  height: 100%;
+  margin: auto 0;
 }
+
 
 .news-heading {
   color: #243657;
@@ -85,12 +80,33 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .news-card-container {
-    margin-right: 30%;
-    margin-left: 0%;
+
+  .news-content{
+    margin-top: 0%;
+    padding: 2.5rem;
   }
 
   .news-heading {
     margin-bottom: 15%;
+    margin-top: 20%
   }
 }
+@media only screen and (min-width: 401px) {
+
+  .news-content{
+    margin-top: 0%;
+    padding: 5rem;
+  } 
+}
+
+@media only screen and (min-width: 1460px) {
+
+  .news-content{
+    margin-top: 0%;
+    padding: 5rem;
+    padding-top: 9%;
+    padding-bottom: 9.4%;
+  }
+}
+
+
