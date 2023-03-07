@@ -1,0 +1,54 @@
+.banner1 {
+  position: absolute;
+  top: -110px;
+  left: 0;
+  right: 0;
+  margin: 165px auto;
+  width: 25vw;
+  grid-gap: 6%;
+  z-index: 3;
+  padding: 10px;
+  border: #ffbb00 solid 2px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b3b57;
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.MateInfo {
+  margin-top: 2px;
+  font-size: 2vw;
+}
+
+.MateInfoDiv {
+  font-size: 40px;
+}
+
+
+@media(max-width: 780px){
+  .banner1{
+    width: 40vw;
+    top: -120px;
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+
+
+  .MateInfo{
+    font-size: 3;
+  }
+  
+  .MateInfoDiv{
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .banner1{
+    scale: 1.3;
+  }
+}
