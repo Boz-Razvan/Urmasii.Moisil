@@ -52,14 +52,6 @@ const Navbar = () => {
         <Link className="menu-link" to="/participanti">
           <div className="menu-section">Participanți</div>{" "}
         </Link>
-        <Link className="menu-link" to="/matematica">
-          {" "}
-          <div className="menu-section">Matematică</div>
-        </Link>
-        <Link className="menu-link" to="/informatica">
-          {" "}
-          <div className="menu-section">Informatică</div>
-        </Link>
         <Link className="menu-link" to="/*">
           {" "}
           <div className="menu-section">Subiecte</div>
