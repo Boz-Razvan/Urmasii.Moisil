@@ -3,13 +3,14 @@ import "./styles/Participanti.css";
 
 const Participanti = () => {
   return (
-    <>
-      <h1>Participanti</h1>
-      <h1>Participanti</h1>
-      <h1>Participanti</h1>
-      <h1>Participanti</h1>
-      <h1>Participanti</h1>
-    </>
+    <div className="participanti-page">
+      <h2>
+        La acest concurs participă echipe de elevi din clasele IX-XII, din toate
+        judeţele ţării, din municipiul Bucureşti şi din Republica Moldova.
+        Nivelurile de concurs sunt următoarele:
+      </h2>
+      <div className="sortare"></div>
+    </div>
   );
 };
 export default Participanti;

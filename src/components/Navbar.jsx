@@ -25,11 +25,14 @@ const Navbar = () => {
           <Link className="NavbarLink" to="/participanti">
             Participanți
           </Link>
-          <Link className="NavbarLink" to="/*">
+          <Link className="NavbarLink" to="/subiecte">
             Subiecte
           </Link>
           <Link className="NavbarLink" to="/*">
-            Rezulate
+            Rezultate
+          </Link>
+          <Link className="NavbarLink" to="/*">
+            Comisii
           </Link>
           <Link className="NavbarLink" to="/*">
             Sponsori
@@ -52,13 +55,17 @@ const Navbar = () => {
         <Link className="menu-link" to="/participanti">
           <div className="menu-section">Participanți</div>{" "}
         </Link>
-        <Link className="menu-link" to="/*">
+        <Link className="menu-link" to="/subiecte">
           {" "}
           <div className="menu-section">Subiecte</div>
         </Link>
         <Link className="menu-link" to="/*">
           {" "}
           <div className="menu-section">Rezultate</div>
+        </Link>
+        <Link className="menu-link" to="/*">
+          {" "}
+          <div className="menu-section">Comisii</div>
         </Link>
         <Link className="menu-link" to="/*">
           {" "}
