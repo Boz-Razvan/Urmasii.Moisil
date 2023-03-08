@@ -41,14 +41,14 @@ h2 {
   margin-bottom: 50px;
 }
 
-.align{
+.align {
   margin-left: 1%;
 }
 
 .body {
   padding-left: 15vw;
   padding-right: 15vw;
-} 
+}
 
 #mainLogo {
   width: 33.5vw;
@@ -63,7 +63,7 @@ h2 {
   margin-right: auto;
   width: 99vw;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
   transition: all 1s ease-in-out;
 }
 
@@ -206,7 +206,7 @@ h2 {
 
   .text1 {
     font-size: 40px;
-    margin-right: 20px;
+    margin-right: 70px;
   }
 
   .text2 {
@@ -220,7 +220,7 @@ h2 {
   }
 
   .container {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
   }
 }
@@ -246,46 +246,51 @@ h2 {
     animation-fill-mode: forwards;
   }
 
-  .npm{
+  .npm {
     font-size: 2.3vw;
     margin-top: 5px;
   }
 
-  .banner{
+  .banner {
     scale: 1.2;
   }
-  .Logo-ATL{
+  .Logo-ATL {
     margin-left: 10px;
     margin-right: 0;
   }
-  .Logo-sepi{
+  .Logo-sepi {
     margin-right: 10px;
   }
 }
 
-
-@media(max-width: 780px){
-  .text1{
+@media (max-width: 780px) {
+  .text1 {
     font-size: 6.5vw;
   }
-  .text2{
+  .text2 {
     font-size: 2.3vw;
   }
 
-  .banner{
+  .banner {
     width: 70vw;
   }
 
-  .divider2{
+  .body {
+    padding: 20px;
+  }
+
+  .divider2 {
     width: 300px;
   }
 
-  .npm{
+  .npm {
     font-size: 2vw;
   }
 
-  .bg1{
+  .bg1 {
     height: 40vh;
   }
-
+  .container {
+    margin-top: 2%;
+  }
 }

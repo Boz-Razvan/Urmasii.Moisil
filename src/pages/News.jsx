@@ -36,6 +36,13 @@ const newsData = [
 const News = () => {
   return (
     <>
+      <div className="banner2">
+        <img className="Logo-ATL" src={require("./assets/ATLaurian.webp")} />
+        <p className="npm">
+          Concursul Național de Informatică Urmașii lui Moisil
+        </p>
+        <img className="Logo-sepi" src={require("./assets/sepi.webp")} />
+      </div>
       <BgNews />
       <div className="news-content">
         <h2 className="news-heading">Anunțuri</h2>
@@ -46,7 +53,7 @@ const News = () => {
         </div>
       </div>
       <Footer />
-     </> 
+    </>
   );
 };
 
