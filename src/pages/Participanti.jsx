@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { React, useState } from "react";
 import "./styles/Participanti.css";
 
 const Participanti = () => {
@@ -27,7 +27,7 @@ const Participanti = () => {
     const vector = values.map((value) => value / magnitude);
     return vector;
   };
-
+  
   return (
     <div className="table-container">
       <table className="table-with-vectors">
