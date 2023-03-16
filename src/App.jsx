@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom"
 import { Navbar, Footer } from "./components"
 import './App.css'
+import React from "react"
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import NoPage from "./pages/NoPage"

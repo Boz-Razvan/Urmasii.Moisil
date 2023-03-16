@@ -1,4 +1,6 @@
 import './styles/NoPage.css'
+import { React } from "react";
+
 
 const NoPage = () => {
     return (
