@@ -14,7 +14,7 @@ const Home = () => {
           <img className="Logo-sepi" src={require("./assets/sepi.webp")} />
         </div>
         <div className="container">
-          <img id="mainLogo" src={require("./assets/logov1.webp")} alt="Logo" />
+          <img className="mainLogo" src={require("./assets/logov1.webp")} alt="Logo" />
           <div className="textMain">
             <h1 className="text1">Grigore C. Moisil</h1>
             <h2 className="text2">Părintele informaticii românești</h2>
