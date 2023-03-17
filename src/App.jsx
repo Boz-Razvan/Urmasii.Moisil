@@ -6,7 +6,7 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import NoPage from "./pages/NoPage"
 import News from "./pages/News"
-import Participanti from "./pages/Participanti"
+  import Participanti from "./pages/Participanti"
 import Subiecte from "./pages/Subiecte"
 
 function App() {

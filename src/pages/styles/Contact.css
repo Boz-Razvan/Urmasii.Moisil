@@ -1,116 +1,53 @@
-.bodys {
-  height: 100%;
-  width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  color: white;
-}
-
-.form-container {
-  margin-left: auto;
-  margin-right: auto;
+.contact-page {
+  margin-top: 10%;
+  height: 64vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 70%;
-  margin-top: 40px;
-}
-
-.label-container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  font-weight: bold;
+  align-items: center;
+  padding: 50px;
 }
 
 h1 {
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 48px;
+  margin-bottom: 30px;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  margin-left: auto;
-  margin-right: auto;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
-  padding: 8px;
-  border: none;
-  height: 4vh;
-  border-radius: 4px;
-  border: 3px solid #ffbb00;
-  background-color: #e0e0e0;
-  margin-bottom: 20px;
-  font-size: 26px;
+  max-width: 600px;
 }
 
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input,
 textarea {
-  border: 3px solid #ffbb00;
-  margin-left: auto;
-  margin-right: auto;
-  height: 45vh;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  width: 100%;
 }
 
-button[type="submit"] {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffbb00;
-  color: white;
+button {
+  font-size: 16px;
+  background-color: #fb0;
+  color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
+  transition: background-color 0.2s ease;
 }
 
-button[type="submit"]:hover {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #b48400;
-}
-
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container img {
-  margin-top: 20px;
-  position: absolute;
-  top: 10 0px;
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-.form-group {
-  width: 100%;
-  margin-right: 20px;
-  position: absolute;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 8px;
-  border: none;
-  border-radius: 4px;
-  border: 3px solid #ffbb00;
-  background-color: #e0e0e0;
-  margin-bottom: 20px;
-  font-size: 26px;
+button:hover {
+  background-color: rgb(197, 145, 0);
 }
