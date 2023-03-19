@@ -1,57 +1,51 @@
 import { React, useState } from "react";
 import "./styles/Participanti.css";
+import Footer from '../components/Footer'
 
 const Participanti = () => {
-  const [data, setData] = useState([
-    ['Name', ' 1', ' 2', ' 3'],
-    ['Cosmin', '1', '2',],
-    ['Razvan', '4', '5', ],
-    ['Ion al Glanetasului', '7', '8', ],
-    ['Vasile Baciu', '7', '8', ],
-    ['George Bulbuc', '7', '8', ],
-    ['Lica Samadaul', '7', '82', ],
-    ['Ghita Carcimarul', '7', '8', ],
-    ['Felix', '7', '8', ],
-    ['Mirecea Eliade', '7', '8', ],
-
-
-
-
-
-  ]);
-
-  const calculateVector = (row) => {
-    const values = row.slice(1);
-    const sumOfSquares = values.reduce((acc, value) => acc + value ** 2, 0);
-    const magnitude = Math.sqrt(sumOfSquares);
-    const vector = values.map((value) => value / magnitude);
-    return vector;
-  };
-  
   return (
-    <div className="table-container">
-      <table className="table-with-vectors">
-        <thead>
-          <tr>
-            {data[0].map((header) => (
-              <th key={header}>{header}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody className="body-table">
-          {data.slice(1).map((row, index) => (
-            <tr key={index}>
-              {row.map((cell, index) => (
-                <td key={index}>{cell}</td>
-              ))}
-              <td>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );  
-}
+    <>
+      <div className="header">
+        <h1 className="title-participanti">Participanți  /  Înscriere</h1>
+      </div>
+      <div className="divider1" />
+      <div className="body">
+        <h2 className="content">
+          Vă rugăm să confirmați participarea echipajelor din județul
+          dumneavoastră completând formularul de înscriere:
+        </h2>
+        <div className="divider2"></div>
+      </div>
+      <iframe
+        src="https://forms.gle/d2CgPHJ8fmQe69gJ6"
+        height="700"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Loading…
+      </iframe>
+      <div className="body">
+        <div className="divider2" style={{ marginTop: "30px" }}></div>
+        <h2 className="content">
+          Inspectorii școlari cu atribuții de coordonare pentru disciplina
+          informatică din fiecare inspectorat școlar județean/Inspectoratul
+          Școlar al Municipiului București sunt rugați să trimită, în vederea
+          validării participanților, formularele de înscriere care cuprind
+          datele elevilor și profesorului însoțitor, avizat de inspectorul
+          școlar general, prin email la adresa daniela.nour@isjbt.ro sau
+          adrian.panaete@gmail.com.
+        </h2>
+        <h2 className="content">
+          Formularul editabil se poate descărca de aici:
+        </h2>
+        <a className="button" href="/Formular-Inscriere.docx" download>
+          Formular Înscriere Word
+        </a>
+      </div>
+      <Footer />
+    </>
+  );
+};
 
 export default Participanti;

@@ -19,24 +19,42 @@ const Navbar = () => {
           <Link className="NavbarLink" to="/">
             Acasă
           </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
           <Link className="NavbarLink" to="/news">
             Anunțuri
           </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
           <Link className="NavbarLink" to="/participanti">
-            Participanți
+            Participanți / Înscriere
           </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
+          <Link className="NavbarLink" to="/Regulament">
+            Regulament
+          </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
           <Link className="NavbarLink" to="/subiecte">
             Subiecte
           </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
           <Link className="NavbarLink" to="/*">
             Rezultate
           </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
           <Link className="NavbarLink" to="/*">
             Comisii
           </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
           <Link className="NavbarLink" to="/*">
             Sponsori
           </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
           <Link className="NavbarLink" to="/contact">
             Contact
           </Link>

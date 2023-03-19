@@ -125,11 +125,14 @@ a:hover {
 
   .menu-button {
     display: block;
+    box-shadow: none;
   }
 }
 
 .menu-button:hover {
   color: #ffbb00;
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .NavbarLogo:hover {

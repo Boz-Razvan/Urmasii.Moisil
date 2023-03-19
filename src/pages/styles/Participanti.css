@@ -1,32 +1,55 @@
-.table-container {
-  margin: 20px;
-  margin-top: 100px;
+.header {
+  height: 80vh;
+  margin-top: 71px;
+  background-image: linear-gradient(to top left, #2b3b57, #141e30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease-in-out;
+
 }
 
-.table-with-vectors {
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
+iframe{
+  width: 70vw;
+  margin-left: 15vw;
+  border-radius: 10px;
 }
 
-.table-with-vectors th,
-.table-with-vectors td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.table-with-vectors th {
-  background-color: #2b3b57;
-  font-weight: bold;
-}
-
-.table-with-vectors td:last-child {
-  font-weight: bold;
+.title-participanti {
+  font-size: 10vw/vh;
   text-align: center;
+  color: white;
+  text-shadow: 2px 2px #333;
 }
 
-.body-table{
-  width: 100px;
+.button{
+  display: inline-block;
+  background-color: #fb0;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.button:hover{
+  background-color: rgb(185, 136, 1);
+  color: white;
+}
+
+@media  (max-width: 700px) {
+   .header{
+    height: 35vh;
+    transition: all 0.3s ease-in-out;
+   }
+
+   .button{
+    scale: .7;
+   }
 }

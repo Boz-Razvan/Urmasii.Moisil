@@ -27,10 +27,15 @@
 }
 
 .divider2 {
-  margin-top: 5px;
+  margin-top: 0px;
   border: 1px solid white;
-  width: 675px;
-  margin-bottom: 20px;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 30px;
 }
 
 h1 {
@@ -47,7 +52,9 @@ h2 {
 
 .body {
   padding-left: 15vw;
+  line-height: 2;
   padding-right: 15vw;
+  font-size: 20px;
 }
 
 .mainLogo {
@@ -66,6 +73,16 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 4fr;
   transition: all 1s ease-in-out;
+}
+
+.content {
+  user-select: text;
+  transition: all 0.3s ease-in-out;
+}
+
+.content:hover {
+  scale: 1.03;
+  transition: all 0.3s ease-in-out;
 }
 
 .banner {
@@ -223,11 +240,6 @@ h2 {
     margin-right: 20px;
   }
 
-  .body {
-    padding-left: 30px;
-    padding-right: 100px;
-  }
-
   .container {
     margin-left: 0;
     margin-right: auto;
@@ -236,34 +248,61 @@ h2 {
 
 @media only screen and (max-width: 400px) {
   .container {
-  width: 99vw;
-  display: flex;
-  flex-direction: column;
-  transition: all 1s ease-in-out;
-  margin-left: 13%;
-}
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s ease-in-out;
+    margin-left: 13%;
+  }
 
-.text1{
-  width: 78vw;
-  font-size: 38px;
-  margin: 0;
-}
+  .text1 {
+    width: 78vw;
+    font-size: 38px;
+    margin: 0;
+  }
 
-.text2{
-  width: 78vw;
-  margin: 0;
-  padding: 0;
-}
+  .p1 {
+    font-size: 30px;
+  }
 
-.textMain{
-  margin: 0;
-  width: 90vw;
-}
+  .p2 {
+    font-size: 30px;
+  }
 
-.mainLogo{
-  scale: 2.5;
-  padding-bottom: 50px;
-  margin-left: 22%;
-}
+  .p3 {
+    font-size: 30px;
+  }
 
+  .p4 {
+    font-size: 30px;
+  }
+
+  .p5 {
+    font-size: 30px;
+  }
+
+  .p6 {
+    font-size: 30px;
+  }
+
+  .span-bold {
+    font-weight: 300;
+  }
+
+  .text2 {
+    width: 78vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .textMain {
+    margin: 0;
+    width: 90vw;
+  }
+
+  .mainLogo {
+    scale: 2.5;
+    padding-bottom: 50px;
+    margin-left: 22%;
+  }
 }
