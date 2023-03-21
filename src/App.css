@@ -1,6 +1,8 @@
 #root {
   width: 100vw;
   overflow-x: hidden;
+  text-align: justify;
+  font-family: Arial, sans-serif;
 }
 
 .logo {
@@ -37,4 +39,12 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+@media (max-width: 400px) {
+  #root{
+    text-align: start;
+    justify-content: space-evenly;
+  }
 }

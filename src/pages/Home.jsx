@@ -34,16 +34,16 @@ const Home = () => {
         </h2>
         <div className="divider2" />
         <h2 className="content">
-          Concursului Național de Informatică „Urmașii lui Moisil” este înscris
+          Concursul Național de Informatică „Urmașii lui Moisil” este înscris
           în Calendarul concursurilor naționale școlare finanțate de către
           Ministerul Educației, la poziția 38, în anexa nr. 4 la OME nr.
           3027/12.01.2023.
         </h2>
         <div className="divider2" />
         <h2 className="content">
-          Competiția a fost inițiată în anul 2001 de către Liceul  Teoretic de
+          Competiția a fost inițiată în anul 2001 de către Liceul Teoretic de
           Informatică „Grigore Moisil” din Iaşi, în onoarea patronului liceului,
-          academicianul Grigore C. Moisil (1906 – 1973), fondator de şcoală de
+          academicianul Grigore C. Moisil (1906 - 1973), fondator de şcoală de
           informatică în România, personalitate recunoscută pe plan mondial
           pentru fundamentarea informaticii ca ştiinţă.
         </h2>
@@ -69,7 +69,7 @@ const Home = () => {
         <div className="divider2" />
         <h2 className="content">
           În agenda competiției este inclusă o Sesiune Naţională de Comunicări
-          Ştiinţifice cu tema:”INFO-CALITATE – asigurarea calităţii în
+          Ştiinţifice cu tema:”INFO-CALITATE - asigurarea calităţii în
           învăţământul de informatică”, care se desfăşoară în paralel cu
           concursul “Urmaşii lui Moisil”. Materialele științifice vor fi trimise
           pe adresa rasandului@gmail.com , până la data de 24 martie 2023.

@@ -36,6 +36,7 @@
 
 .NavbarLinks {
   display: flex;
+  word-spacing: 10%;
   width: 80%;
   justify-self: center;
   justify-content: space-around;
@@ -106,12 +107,12 @@ a:hover {
   outline: none;
   padding: 10px;
   position: absolute;
-  top: -15px;
-  right: 37px;
+  top: -10px;
+  right: 40px;
   display: none;
 }
 
-@media (max-width: 1260px) {
+@media (max-width: 1460px) {
   .NavbarLinks {
     display: none;
   }
@@ -188,7 +189,7 @@ a:hover {
 }
 
 
-@media (max-width: 1260px) {
+@media (max-width: 1460px) {
   .NavbarContainer {
     width: 100vw;
     justify-content: right;
@@ -211,7 +212,7 @@ a:hover {
     right: 0;
     display: flex;
     justify-content: space-between;
-    height: 20px;
+    height: 30px;
     align-items: center;
     padding: 20px;
     border-bottom: 2px solid #ffbb00;
@@ -274,7 +275,7 @@ a:hover {
     right: 0;
     display: flex;
     justify-content: space-between;
-    height: 20px;
+    height: 28px;
     align-items: center;
     padding: 20px;
     border-bottom: 2px solid #ffbb00;

@@ -27,7 +27,12 @@ const Navbar = () => {
           <p style={{ marginTop: "5px" }}>|</p>
 
           <Link className="NavbarLink" to="/participanti">
-            Participanți / Înscriere
+            Participanți
+          </Link>
+          <p style={{ marginTop: "5px" }}>|</p>
+
+          <Link className="NavbarLink" to="/program">
+            Program
           </Link>
           <p style={{ marginTop: "5px" }}>|</p>
 
@@ -72,6 +77,12 @@ const Navbar = () => {
         </Link>
         <Link className="menu-link" to="/participanti">
           <div className="menu-section">Participanți</div>{" "}
+        </Link>
+        <Link className="menu-link" to="/program">
+          <div className="menu-section">Program</div>{" "}
+        </Link>
+        <Link className="menu-link" to="/Regulament">
+          <div className="menu-section">Regulament</div>{" "}
         </Link>
         <Link className="menu-link" to="/subiecte">
           {" "}

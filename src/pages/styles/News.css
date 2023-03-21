@@ -20,8 +20,8 @@
 .news-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 2rem;
-  width: 100%;
+  grid-gap: 7rem;
+  width: 90%;
 }
 
 .banner2 {
@@ -52,11 +52,13 @@
   background-color: #2b3b57;
   border-radius: 1rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-out;
+  z-index: 1  ;
 }
 
 .news-card:hover {
   scale: 1.3;
-  z-index: 3;
+  z-index: 10;
   transition: all 0.3s ease-in-out;
 }
 
@@ -112,6 +114,14 @@
     margin-top: 30%;
   }
 
+  .news-card-container{
+    width: 100%;
+  }
+
+  .news-card:hover{
+    scale: 1;
+  }
+
   .banner2 {
     position: absolute;
     top: -40px;
@@ -130,7 +140,12 @@
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    padding: 1%;
+    padding: 1%;;
+  }
+
+  .banner2{
+    scale: 1.2;
+    margin-top: 110px;
   }
 }
 @media only screen and (min-width: 401px) {
@@ -144,9 +159,6 @@
     margin-top: 10%;
   }
 
-  .banner2 {
-scale: 1.2;
-  }
 }
 
 @media only screen and (min-width: 1460px) {

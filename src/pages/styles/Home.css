@@ -19,8 +19,10 @@
 }
 
 .divider1 {
-  border: 1px solid #ffbb00;
+  border: 0px;
+  border-top: 2px solid #ffbb00;
   width: 100vw;
+  height: 0px;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 80px;
@@ -28,7 +30,8 @@
 
 .divider2 {
   margin-top: 0px;
-  border: 1px solid white;
+  border: 0px;
+  border-top: 2px solid #fff;
   width: 80%;
   margin-bottom: 40px;
 }
@@ -51,9 +54,9 @@ h2 {
 }
 
 .body {
-  padding-left: 15vw;
+  padding-left: 10vw;
   line-height: 2;
-  padding-right: 15vw;
+  padding-right: 10vw;
   font-size: 20px;
 }
 
@@ -76,6 +79,7 @@ h2 {
 }
 
 .content {
+  font-weight: 500;
   user-select: text;
   transition: all 0.3s ease-in-out;
 }
@@ -103,6 +107,7 @@ h2 {
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   padding: 1%;
+  padding-top: 1.1%;
 }
 
 @keyframes slideDown {
@@ -227,7 +232,7 @@ h2 {
 
   .banner {
     scale: 1.2;
-    top: -110px;
+    top: -100px;
   }
 
   .text1 {
@@ -253,6 +258,13 @@ h2 {
     flex-direction: column;
     transition: all 1s ease-in-out;
     margin-left: 13%;
+  }
+
+  .content{
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
   }
 
   .text1 {
@@ -304,5 +316,12 @@ h2 {
     scale: 2.5;
     padding-bottom: 50px;
     margin-left: 22%;
+  }
+
+
+
+  .divider2{
+    margin-top: 30px;
+    margin-bottom: 5px;
   }
 }

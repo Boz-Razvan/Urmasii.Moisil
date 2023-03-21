@@ -1,14 +1,15 @@
-import { HashRouter, Routes, Route } from "react-router-dom"
-import { Navbar, Footer } from "./components"
-import './App.css'
-import React from "react"
-import Home from "./pages/Home"
-import Contact from "./pages/Contact"
-import NoPage from "./pages/NoPage"
-import News from "./pages/News"
-  import Participanti from "./pages/Participanti"
-import Subiecte from "./pages/Subiecte"
-import PDFViewer from "./pages/PDFViewer"
+import { HashRouter, Routes, Route } from "react-router-dom";
+import { Navbar, Footer } from "./components";
+import "./App.css";
+import React from "react";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import NoPage from "./pages/NoPage";
+import News from "./pages/News";
+import Subiecte from "./pages/Subiecte";
+import PDFViewer from "./pages/PDFViewer";
+import Participanti from "./pages/Participanti";
+import Program from "./pages/Program";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <Route key="regulament" path="regulament" element={<PDFViewer />} />
           <Route key="noPage" path="*" element={<NoPage />} />
           <Route key="subiecte" path="subiecte" element={<Subiecte />}></Route>
-          <Route key="participanti" path="participanti" element={<Participanti />}></Route>
+          <Route key="program" path="program" element={<Program />}></Route>
+          <Route key="participanti" path="participanti"element={<Participanti />}></Route>
         </Routes>
       </HashRouter>
     </>
