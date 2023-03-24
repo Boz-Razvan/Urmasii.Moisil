@@ -1,16 +1,15 @@
 .header {
   height: 80vh;
   margin-top: 71px;
-  background-image: linear-gradient(to top left, #2b3b57, #141e30);
+  background-image: url("../assets/bg1.png");
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.5s ease-in-out;
-
 }
 
-iframe{
+iframe {
   width: 70vw;
   margin-left: 15vw;
   border-radius: 10px;
@@ -19,12 +18,21 @@ iframe{
 .title-participanti {
   font-size: 10vw;
   text-align: center;
+  width: 100vw;
   color: white;
   text-shadow: 2px 2px #333;
 }
 
-  .button{
-    display: inline-block;
+.title-participanti1 {
+  font-size: 10vw;
+  text-align: center;
+  margin-left: 5vw;
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+
+.button {
+  display: inline-block;
   background-color: #fb0;
   color: white;
   padding: 10px 20px;
@@ -39,7 +47,14 @@ iframe{
   margin-bottom: 5%;
 }
 
-.button1{
+.news-heading {
+  color: #243657;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.button1 {
   display: inline-block;
   background-color: #fb0;
   color: white;
@@ -55,14 +70,12 @@ iframe{
   margin-bottom: 5%;
 }
 
-.banner3{
+.banner3 {
   position: absolute;
-  user-select: none;
-  top: -50px;
   left: 0;
   right: 0;
-  margin: 95px auto;
-  width: 70vw;
+  margin: 100px auto;
+  width: 70%;
   z-index: 3;
   border: #ffbb00 solid 2px;
   border-radius: 10px;
@@ -75,42 +88,40 @@ iframe{
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   padding: 1%;
-  padding-top: .5%;
+  padding-top: 1.1%;
 }
 
-.button:hover{
+.button:hover {
   background-color: rgb(185, 136, 1);
   color: white;
 }
 
-.button1:hover{
+.button1:hover {
   background-color: rgb(185, 136, 1);
   color: white;
 }
 
-
-@media  (max-width: 700px) {
-   .header{
+@media (max-width: 700px) {
+  .header {
     height: 35vh;
     transition: all 0.3s ease-in-out;
-   }
+  }
 
-   .button{
-    scale: .7;
-   }
-
+  .button {
+    scale: 0.7;
+  }
 }
 
-@media  (min-width: 400px) {
-  .banner3{
+@media (min-width: 400px) {
+  .banner3 {
     top: -30px;
   }
 }
 
-@media  (max-width: 400px) {
-  .banner3{
+@media (max-width: 400px) {
+  .banner3 {
     scale: 1.2;
     top: -25px;
     font-size: 10px;
-   }
+  }
 }

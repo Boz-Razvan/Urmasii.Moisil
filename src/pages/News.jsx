@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import "./styles/Inscriere.css";
+import "./styles/News.css"
 import Footer from "../components/Footer";
 
 const Inscriere = () => {
@@ -11,8 +12,8 @@ const Inscriere = () => {
 
   return (
     <>
-      <div className="header">
-      <div className="banner3">
+      <div className="bg2">
+        <div className="banner">
           <img className="Logo-ATL" src={require("./assets/ATLaurian.webp")} />
           <p className="npm">
             Concursul Național de Informatică Urmașii lui Moisil
@@ -20,7 +21,7 @@ const Inscriere = () => {
           <img className="Logo-sepi" src={require("./assets/sepi.webp")} />
         </div>
         <h1 className="title-participanti">Anunțuri</h1>
-      </div>
+        </div>
       <div className="divider1"></div>
       <div className="body">
         <h2 className="content">

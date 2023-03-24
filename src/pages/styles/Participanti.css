@@ -1,0 +1,55 @@
+table {
+  border-collapse: collapse;
+  width: 90vw;
+  margin-left: 5vw;
+  border: 2px solid white;
+}
+
+th,
+td {
+  text-align: left;
+  border: 1px solid white;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #2b3b57;
+}
+tr {
+    background-color: #192333;
+    
+  }
+
+th {
+  background-color: #fb0;
+  color: white;
+  border: solid 2px white;
+}
+
+th:hover{
+    border: solid 2px white;
+}
+
+.Label{
+    border: solid 1px white;
+}
+
+.Label:hover{
+    background-color: rgb(146, 114, 25);
+}
+
+.PinA{
+    width: 100vw;
+    text-align: center;
+    font-size: 5vw;
+    margin: 5% auto 5% auto;
+}
+
+@media (max-width:400px) {
+    table{
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95vw;
+    }    
+}

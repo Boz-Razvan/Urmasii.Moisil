@@ -5,7 +5,7 @@ import { Footer } from "../components";
 const Home = () => {
   return (
     <div className="Page">
-      <div className="bg1">
+      <div style={{height:'88vh'}} className="bg1">
         <div className="banner">
           <img className="Logo-ATL" src={require("./assets/ATLaurian.webp")} />
           <p className="npm">

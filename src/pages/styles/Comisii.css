@@ -1,0 +1,21 @@
+.Comisii{
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Comisii1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width:400px) {
+    .Comisii{
+        font-size: 10px;
+    }
+
+    .Comisii1{
+        font-size: 11.6px;
+    }
+}

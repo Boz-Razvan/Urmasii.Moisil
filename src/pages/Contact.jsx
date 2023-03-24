@@ -17,6 +17,10 @@ function ContactPage() {
           <button type="submit">Send</button>
         </form>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
       <Footer />
     </>
   );

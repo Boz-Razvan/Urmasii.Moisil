@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5d52b33.css",
-    "main.js": "/static/js/main.e27b9995.js",
+    "main.css": "/static/css/main.8bb4f9da.css",
+    "main.js": "/static/js/main.476c0b7c.js",
     "static/js/787.c9f28103.chunk.js": "/static/js/787.c9f28103.chunk.js",
     "static/media/bg1.png": "/static/media/bg1.bb4c8c13355b27818592.png",
+    "static/media/logo_academia mate.jfif": "/static/media/logo_academia mate.51e09b692fe35b03a80a.jfif",
     "static/media/sepi.webp": "/static/media/sepi.a4ae57f4dd16989b5958.webp",
     "static/media/logov1.webp": "/static/media/logov1.ee44cc36d6a21c0aba86.webp",
     "static/media/ATLaurian.webp": "/static/media/ATLaurian.882258a217898fe19ffb.webp",
+    "static/media/logo-asociatia-europa 2010.jfif": "/static/media/logo-asociatia-europa 2010.8a0ac3929ca1d92f795b.jfif",
+    "static/media/logo-site europa hotel.png": "/static/media/logo-site europa hotel.211ee195cde6404d83a7.png",
+    "static/media/logo proteus.jfif": "/static/media/logo proteus.bc56d24ba2139e9589b7.jfif",
+    "static/media/peda.jpeg": "/static/media/peda.780f96abfaa5b4ef78ce.jpeg",
+    "static/media/Sepi_logo_XBJVm5fIV6.webp": "/static/media/Sepi_logo_XBJVm5fIV6.79d200699942f8643638.webp",
+    "static/media/CNME.jfif": "/static/media/CNME.c419f45b9af32133faf0.jfif",
+    "static/media/liceu regina dorohoi.jfif": "/static/media/liceu regina dorohoi.010eda6d67f4db4e41fb.jfif",
     "index.html": "/index.html",
-    "main.e5d52b33.css.map": "/static/css/main.e5d52b33.css.map",
-    "main.e27b9995.js.map": "/static/js/main.e27b9995.js.map",
+    "main.8bb4f9da.css.map": "/static/css/main.8bb4f9da.css.map",
+    "main.476c0b7c.js.map": "/static/js/main.476c0b7c.js.map",
     "787.c9f28103.chunk.js.map": "/static/js/787.c9f28103.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5d52b33.css",
-    "static/js/main.e27b9995.js"
+    "static/css/main.8bb4f9da.css",
+    "static/js/main.476c0b7c.js"
   ]
 }

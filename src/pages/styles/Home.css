@@ -1,12 +1,12 @@
 .Page {
   user-select: none;
-  height: 100%;
   width: 100%;
   position: relative;
   background-color: #141e30;
 }
 
 .bg1 {
+  text-align: start;
   position: relative;
   height: 88vh;
   margin-top: 70px;
@@ -14,6 +14,21 @@
   display: flex;
   align-items: center;
   background: #141e30;
+  padding: 0;
+  background-image: url("../assets/bg1.png");
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bg2{
+  text-align: start;
+  position: relative;
+  height: 45vw;
+  margin-top: 70px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background: #141e30;
+  padding: 0;
   background-image: url("../assets/bg1.png");
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
@@ -227,7 +242,10 @@ h2 {
 
   .bg1 {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
+    padding: 0;
+    padding-top: 55px;
+    padding-bottom: 50px;
   }
 
   .banner {
@@ -266,6 +284,14 @@ h2 {
     font-weight: 500;
     margin-bottom: 15px;
   }
+
+.bg1{
+  height: 20vh;
+}
+
+.bg2{
+  height: 35vh;
+}
 
   .text1 {
     width: 78vw;

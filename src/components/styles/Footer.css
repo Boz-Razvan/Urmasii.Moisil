@@ -1,14 +1,14 @@
 .footer {
-  position: sticky;
+  position: relative;
   margin-top: 2%;
   border-top: 2px solid #ffbb00;
   width: 100vw;
   background-color: #141e30;
   color: #fff;
   bottom: 0;
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
-  height: 60px;
+  height: 20px;
   z-index: 30;
 }
 
@@ -16,8 +16,10 @@
   max-width: 90vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-template-columns: 2fr 1fr 2fr;
   justify-items: center;
+  justify-content: center;
   align-content: center;
 }
 
@@ -42,6 +44,10 @@
 
 @media (max-width:600px) {
   .footer{
-    display: none;
+    position: relative;
+  }
+
+  .footer-container p{
+    font-size: 10px;
   }
 }
